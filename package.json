@@ -16,7 +16,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "moment": "^2.22.2",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.1.1",
+    "yarn": "^1.12.3"
   },
   "devDependencies": {
     "expect": "^23.6.0",
