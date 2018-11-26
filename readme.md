@@ -13,7 +13,7 @@
 
 ## Overview
 
-*Node Chat App* is a web application that use `Node, Expess, and Socke.IO` to deliver the real time application that allow users to chat with each other online. With this app, uses can communicate with each other on web UI while Node, Express, and SocketIO work in the background.
+*Node Chat App* is a web application that uses `Node, Expess, and Socke.IO` to deliver a real time application that allow users to chat with each other online. With this app, users can communicate with each other on web UI while Node, Express, and SocketIO are working in the background.
 
 ### Project Introduction
 
@@ -22,12 +22,12 @@
 
   #### Project Output
 
-  Upon complete running the app, the user will be able to log into the chatting app and start to chat with other users. The running version of this app is lived on http://chat.loynin.com
+  Upon complete running the app, the user will be able to log into the chatting app and start to chat with other users. The running version of this app is lived at http://chat.loynin.com
 
 
 ## Structure of Project Files
  #### File Structure
- The structure of the files are divided into two part. One is for web server and the other one is for public serve.
+ The structure of the files are divided in to two parts. One is for web server and the other is for public hosting.
 
  - public
       - css
@@ -39,15 +39,15 @@
           - moment.js - moment library for date and time manipulation
           - mustache.js - library use to create javascript template to reduce redundant code
         + chat.js - file use to provide functions for the chat app
-      - index.html - handle the main page of the file
+      - index.html - handle the main page of the application
       - chat.html - handle all chat functions to display chat, message, and user list
 
 - server
     - utils
       + message.js - use to create message function for the application
-      + users.js - use to create user remove user and display user list
+      + users.js - use to create user, remove user, and display user list
       + validation.js - use to validate string
-      + message.test.js - use for test the application processs
+      + message.test.js - use to test the application processs
     - server.js - handle the process of the client and server communication such as `connect, join, and disconnect`
 
 
@@ -57,7 +57,7 @@
 
 ## Prerequisites
 
-To develop and run this app require the following:
+To develop and run, this app is required the following:
 
   #### Dependencies
 ```
@@ -75,13 +75,13 @@ To develop and run this app require the following:
 ```
   #### Run-time Environment
 
-This app is using JavaScript and using Node as the platform. Therefore, this app need NodeJS to run.
+This app is using JavaScript and Node as the platform. Therefore, this app needs NodeJS to run.
 
 ## How to Run the Project
 
 The following is the process of running app on the local server:
 
-1. Clone the repository to the local folder as folder name 'node-chat-app'
+1. Clone the repository to the local folder as folder name 'node-chat-app' or any name and run the following command:
 
 ```
 git clone https://github.com/loynin/node-chat-app.git node-chat-app
@@ -103,4 +103,4 @@ For the future of improvement, this app have many chances for improvement. One t
 
 ## Credit
 
-This app the out put from the study of course `The Complete Node.js Developer Course (2nd Edition)` from `Andrew Mead` @ udemy.com
+This app is the out put from the study of the course `The Complete Node.js Developer Course (2nd Edition)` from `Andrew Mead` @ udemy.com
